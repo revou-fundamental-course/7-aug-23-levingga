@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Luas Segitiga</title>
+</head>
+<body>
+  <div class="calculator">
+    <h1>Luas Segitiga</h1>
+    <img src="https://2.bp.blogspot.com/--DfYE1j-Sw0/WmT-_Qtt4WI/AAAAAAAAAKE/jCuSrApSTxgdXSlH2zO6VF2mDoV4sV61wCLcBGAs/s1600/Segitiga%2BSama%2BKaki%2B2.jpg" alt="Triangle" class="triangle-image">
+    <form id="triangleForm">
+      <label for="base">Alas:</label>
+      <input type="number" id="base" required>
+      <br>
+      <label for="height">Tinggi:</label>
+      <input type="number" id="height" required>
+      <br>
+      <button type="button" id="calculateBtn">Hitung</button>
+    </form>
+    <div id="results" class="hidden">
+      <p>Luas: <span id="areaResult"></span></p>
+    
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
+

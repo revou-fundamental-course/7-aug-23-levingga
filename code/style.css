@@ -1,0 +1,19 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .calculator {
+    width: 300px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .triangle-image {
+    max-width: 300px;
+    margin: 10px auto;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
